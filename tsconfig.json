@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"] // 适配组件路径别名
+    }
+  }
+}
