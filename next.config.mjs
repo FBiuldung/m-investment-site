@@ -1,12 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // 删除 output: 'export' 行
   images: {
     unoptimized: true,
-  },
-  basePath: '',
-  assetPrefix: '',
-  trailingSlash: true,
+  }
 };
 
 export default nextConfig;
