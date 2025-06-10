@@ -1,3 +1,4 @@
+import './globals.css'
 export const metadata = {
   title: '你的网站标题', 
   description: '网站描述', 
