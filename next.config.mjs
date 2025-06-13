@@ -1,12 +1,13 @@
 /** @type {import(\'next\').NextConfig} */
 const nextConfig = {
-  output: \'export\',
+  output: 'export',
   images: {
     unoptimized: true,
   },
-  basePath: \'\',
-  assetPrefix: \'\',
+  basePath: '',
+  assetPrefix: '',
   trailingSlash: true,
+  optimizeFonts: false, // 明确禁用字体优化
 };
 
 export default nextConfig;
